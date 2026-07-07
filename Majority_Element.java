@@ -17,8 +17,7 @@ public class Solution {
      int cd=a[n/2];
      int cnt=0;
     for(int num:a){
-        
-        if(num==cd){
+           if(num==cd){
             cnt++;
         }      
     }
