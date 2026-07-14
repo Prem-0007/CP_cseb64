@@ -4,8 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 public class Solution {
-
-    public static void main(String[] args) {
+  public static void main(String[] args) {
       Scanner sc=new Scanner(System.in);
       int n=sc.nextInt();
         int arr[]=new int[n];
@@ -20,7 +19,6 @@ public class Solution {
          }else{
             sum=arr[i];
          }
-         
           maxsum=Math.max(maxsum,sum);
         }
         System.out.print(maxsum);
