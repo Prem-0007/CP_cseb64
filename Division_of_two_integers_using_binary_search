@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int dividend = sc.nextInt();
+        int divisor = sc.nextInt();
+
+        int ans =  dividend / divisor;
+
+        if (ans > Integer.MAX_VALUE)
+            System.out.println(Integer.MAX_VALUE);
+        else if (ans < Integer.MIN_VALUE)
+            System.out.println(Integer.MIN_VALUE);
+        else
+            System.out.println( ans);
+    }
+}
